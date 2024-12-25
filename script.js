@@ -24,7 +24,7 @@ document.getElementById('applicationForm').addEventListener('submit', function(e
     };
 
     // Google Apps Script Web App URL
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyXQ9iZmclnkULSv6sOu9DO5qqQoyPhNzzhm9t2dmkkAmg4AATJhe0cnw_Z7h-EhW4Owg/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyXQ9iZmclnkULSv6sOu9DO5qqQoyPhNzzhm9t2dmkkAmg4AATJhe0cnw_Z7h-EhW4Owg/exec';
     // Send data using Fetch API
     fetch(scriptURL, {
         method: 'POST',
