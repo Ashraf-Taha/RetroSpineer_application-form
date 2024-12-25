@@ -13,7 +13,7 @@
 <body>
     <div class="form-container">
         <h2>Advance Your Career with Us</h2>
-        <form id="applicationForm">
+        <form id="applicationForm" action="https://script.google.com/macros/s/AKfycbwc3eogBUlf-U4V6fTagPMHA370odpq9eLwRASVx8iiD_max7HdxZ3ijQghw03RaQL4JA/exec" method="POST">
             <div class="input-group">
                 <label for="name"><i class="fas fa-user"></i> Full Name<span class="required">*</span></label>
                 <input type="text" id="name" name="name" required placeholder="Enter your full name">
@@ -33,6 +33,9 @@
                 <label for="email"><i class="fas fa-envelope"></i> Email (Optional)</label>
                 <input type="email" id="email" name="email" placeholder="Enter your email address">
             </div>
+
+            <!-- Honeypot Field for Spam Protection -->
+            <input type="text" name="_gotcha" style="display:none">
 
             <button type="submit">Apply Now</button>
         </form>
